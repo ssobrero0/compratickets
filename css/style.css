@@ -1,0 +1,120 @@
+/* Barra de navegación */
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  .navbar a {
+    color: grey;
+    margin-left: 1rem;
+  }
+  
+  /* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .card {
+    width: 30%;
+    border: 2px solid;
+    border-radius: 0px;
+    padding: 0rem;
+  }
+  
+  .card h2 {
+    margin: 0;
+  }
+
+  .card-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+  }
+
+  /* Formulario */
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+
+  .cuadro {
+    height: 40px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    margin: 1%;
+  }
+  
+  .cuadro2 {
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 1%;
+    padding: 20px;
+  }
+
+  .form-field:last-of-type {
+    width: 70%;
+    height: 60px;
+    background-color: rgb(125, 176, 241);
+    border-radius: 5px;
+    padding: 1rem;
+    color: blue;
+    border-color: rgb(88, 157, 248);
+    border-width: 1px;
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+  .salida {
+    background-color: rgb(125, 176, 241);
+    border: 0;
+    color: blue;
+
+  }
+
+  .button {
+    width: 20%;
+    height: 40px;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    background: linear-gradient(to right, rgb(10, 10, 170), rgb(0, 119, 255));
+    display: flex;
+    color: white;
+    padding: 25px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
